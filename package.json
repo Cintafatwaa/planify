@@ -1,0 +1,49 @@
+{
+  "name": "planify-app",
+  "version": "0.1.0",
+  "homepage": "https://Cintafatwaa.github.io/react-gh-pages",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^10.x.x",
+    "cra-template": "1.2.0",
+    "css-loader": "^6.x.x",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.x.x",
+    "postcss-loader": "^6.x.x",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
+    "source-map-loader": "^3.x.x",
+    "tailwindcss": "^3.x.x",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
