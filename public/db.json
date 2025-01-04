@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": "2",
+      "name": "Webinar",
+      "time": "1:00 PM",
+      "description": "Webinar tentang ReactJS."
+    },
+    {
+      "id": "1735908095822",
+      "name": "1",
+      "time": "1",
+      "description": "12"
+    },
+    {
+      "id": "cb69",
+      "name": "main bareng",
+      "time": "2025-01-03T21:05",
+      "description": "mobile legend"
+    }
+  ]
+}

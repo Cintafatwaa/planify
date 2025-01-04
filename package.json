@@ -1,18 +1,18 @@
 {
   "name": "planify-app",
   "version": "0.1.0",
-  "homepage": "https://Cintafatwaa.github.io/react-gh-pages",
+  "homepage": "https://Cintafatwaa.github.io/planify-app",
   "private": true,
   "dependencies": {
     "autoprefixer": "^10.x.x",
     "cra-template": "1.2.0",
     "css-loader": "^6.x.x",
-    "gh-pages": "^6.2.0",
+    "firebase": "^11.1.0",
     "postcss": "^8.x.x",
     "postcss-loader": "^6.x.x",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
+    "react-router-dom": "^7.1.1",
     "source-map-loader": "^3.x.x",
     "tailwindcss": "^3.x.x",
     "web-vitals": "^4.2.4"
@@ -44,6 +44,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.4.16"
   }
 }
