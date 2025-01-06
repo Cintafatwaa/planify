@@ -14,6 +14,9 @@ function Navbar() {
   if (location.pathname === '/login') {
     return null;
   }
+  if (location.pathname === '/register') {
+    return null;
+  }
   if (location.pathname === '/dashboard') {
     return null;
   }

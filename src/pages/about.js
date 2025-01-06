@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
     return (
-      <div className="bg-white">
-      <header className="text-center mb-8 pt-10">
+      <div className="bg-white mb-36">
+      <header className="text-center mb-14 pt-10">
         <h1 className="text-3xl font-bold text-blue-600">Tentang Kami</h1>
       </header>
       
@@ -35,16 +35,6 @@ function About() {
             </div>
             <p className="text-gray-600 text-justify">
               Tim profesional berpengalaman di teknologi dan manajemen acara, fokus mengembangkan aplikasi intuitif yang mudah diakses semua kalangan.
-            </p>
-          </section>
-
-          {/* Hubungi Kami */}
-          <section>
-            <div className="flex items-center mb-4">
-              <h2 className="text-2xl font-semibold text-blue-500 ml-4">Hubungi Kami</h2>
-            </div>
-            <p className="text-gray-600">
-              Jika Anda memiliki pertanyaan atau butuh bantuan lebih lanjut, jangan ragu untuk menghubungi kami melalui email atau media sosial kami. Kami siap membantu Anda!
             </p>
           </section>
         </div>

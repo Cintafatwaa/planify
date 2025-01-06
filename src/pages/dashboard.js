@@ -97,7 +97,7 @@ function Dashboard() {
                 </Link>
             </div>
 
-            <h1 className="text-2xl font-bold p-4">Dashboard</h1>
+            <h1 className="text-2xl font-bold p-4">Form</h1>
             <Create onSave={handleSaveEvent} editingEvent={editingEvent} />
             <div className="mt-8">
                 <h2 className="text-xl font-semibold mb-4">Daftar Acara</h2>

@@ -5,8 +5,11 @@
   "private": true,
   "dependencies": {
     "autoprefixer": "^10.x.x",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "cra-template": "1.2.0",
     "css-loader": "^6.x.x",
+    "express": "^4.21.2",
     "firebase": "^11.1.0",
     "postcss": "^8.x.x",
     "postcss-loader": "^6.x.x",

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import usersData from '../components/users.json'; // Pastikan file users.json ada di direktori yang sama
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function LoginForm() {
   const [email, setEmail] = useState('');
@@ -62,6 +62,10 @@ function LoginForm() {
           >
             Login
           </button>
+          <p className="text-gray-600">
+            Belum punya akun? 
+            <Link to="/register" className="text-gray-500 hover:text-blue-400"> Daftar Disini</Link>
+          </p>
         </form>
 
         {/* Pesan error atau sukses */}

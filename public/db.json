@@ -1,22 +1,22 @@
 {
   "events": [
     {
-      "id": "2",
-      "name": "Webinar",
-      "time": "1:00 PM",
-      "description": "Webinar tentang ReactJS."
-    },
-    {
-      "id": "1735908095822",
-      "name": "1",
-      "time": "1",
-      "description": "12"
-    },
-    {
       "id": "cb69",
       "name": "main bareng",
       "time": "2025-01-03T21:05",
       "description": "mobile legend"
+    },
+    {
+      "id": "3bca",
+      "name": "makan",
+      "time": "2025-01-04T15:31",
+      "description": "makan bang"
+    },
+    {
+      "id": "2731",
+      "name": "Webinar",
+      "time": "2025-01-06T00:46",
+      "description": "1234"
     }
   ]
 }

@@ -6,6 +6,7 @@ import Beranda from '../pages/beranda';
 import About from '../pages/about';
 import Layanan from '../pages/layanan';
 import LoginForm from'../pages/login';
+import Register from '../pages/register';
 import Dashboard from '../pages/dashboard';
 import Footer from '../components/footer'
 
@@ -20,6 +21,7 @@ function AppRouter() {
           <Route path="/layanan" element={<Layanan />} />
           <Route path="*" element={<Navigate to="/beranda" />} />
           <Route path='/login' element={<LoginForm />} />
+          <Route path='/register' element={<Register />} />
           <Route path='/dashboard' element={<Dashboard />} />
         </Routes>
       </div>

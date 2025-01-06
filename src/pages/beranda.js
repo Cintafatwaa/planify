@@ -5,8 +5,7 @@ function Beranda() {
   return (
     <div className="bg-white">
       {/* Main Content */}
-      <main className="container max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 pt-16 pb-18 px-4">
-        {/* Left Section: Text */}
+      <main className="container max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 pt-16 pb-18 px-4 mb-28">
         <div className="text-center lg:text-left">
           <h1 className="font-bold text-3xl lg:text-4xl pb-5">
             Want anything to be easy
@@ -17,7 +16,7 @@ function Beranda() {
             Planify membantu mengelola acara dengan mudah dan cepat, menghadirkan kenyamanan dalam setiap perencanaan.
           </p>
           <button className="py-3 px-12 bg-blue-500 rounded-md text-white drop-shadow-lg hover:bg-blue-600 transition">
-            Get Started
+            <a href='/login'>Get Started</a>
           </button>
         </div>
 
